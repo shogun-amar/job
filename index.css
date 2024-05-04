@@ -12,3 +12,167 @@ code {
     monospace;
 }
 
+
+
+.job-card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 4px rgba(79, 78, 78, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 350px; 
+  margin-top: 15px;
+}
+
+.job-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.job-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  line-height: 5px;
+}
+
+.job-card-header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.grey-color {
+  color: rgb(116, 108, 108);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.location {
+  font-size: 12px;
+}
+
+.grey-color img {
+  width: 16px;
+  height: 16px;
+}
+
+.blue-color {
+  color:#007bff;
+}
+
+.job-card-header div {
+  flex: 1;
+}
+
+.job-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.job-card-company {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+.job-card-details {
+  flex: 1;
+  margin-top: 15px;
+}
+.job-card-details span{
+  color: #007bff;
+}
+
+.faded-text {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: linear-gradient(to right, rgba(168, 164, 164, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+
+.job-card-description {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.job-card-skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.job-card-skill {
+  display: inline-block;
+  margin: 0 5px 5px 0;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #eee;
+  color: #333;
+}
+
+.job-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-card-salary {
+  font-size: 14px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.exp {
+  line-height: 5px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons button {
+  color: #050505;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 4px;
+  font-weight: 550;
+  font-size: 16px;
+}
+
+.job-apply-btn {
+  background-color: #0adec6;
+  color: #fff;
+ 
+}
+
+.job-apply-btn img {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  top: 4px;
+}
+
+.ref-btn {
+  background-color: #007bff;
+}
+
+
+
+.job-list {
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  margin: 25px;
+}

@@ -12,10 +12,7 @@ function JobList() {
               headers: {
                 "Content-Type": "application/json"
               },
-              body: JSON.stringify({
-                "limit": 10,
-                "offset": 0
-              })
+              body: JSON.stringify()
             });
             const data = await response.json();
             console.log("Fetched data:", data); 
